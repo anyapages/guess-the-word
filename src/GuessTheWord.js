@@ -109,6 +109,7 @@ const Rose = () => {
     return (
       <div className="rose-used-letters">
         <p className='highlighter'>Used Letters: {Array.from(usedLetters).join(', ')}</p>
+        <div className="rose-message">{message}</div>
       </div>
     );
   };
@@ -133,7 +134,7 @@ const Rose = () => {
           </div>   
           <p className='line'>Hint: Flower name</p>&nbsp;&nbsp;
           <div className='line'>Remaining: {guessesRemaining}</div>
-          <div className="rose-message">{message}</div>
+          
         </div>
           )}
 
@@ -146,10 +147,12 @@ const Rose = () => {
           <br />
           
         <footer>
+          <p>
             &copy; {new Date().getFullYear()}{' '}
             <a href="https://anyaparanya.com" className="link-grey">
               anyaParanya
             </a>
+          </p>
         </footer>
         </div>
         );

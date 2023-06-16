@@ -5,13 +5,13 @@
 
 .rose-container {
   text-align: center;
-  margin-top: 24px;
+  margin-top: 2px;
   font-size: 18px;
   color:  #0047AB;
 }
 
 .rose-word {
-  margin: 10px 0;
+  margin: 2px 0;
   font-size: 55px;
 }
 
@@ -21,8 +21,8 @@
 }
 
 .rose-used-letters {
-  margin-bottom: 8px;
-  font-size: 20px;
+  margin-bottom: 5px;
+  font-size: 18px;
   color:  #0047AB;
 }
 
@@ -77,9 +77,10 @@
 }
 
 .rose-message {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   color: #FF0000;
+  margin-bottom: 10px;
 }
 
 .rose-message span {
@@ -95,6 +96,9 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 h1 {
@@ -169,18 +173,19 @@ footer {
   left: 0;
   width: 100%;
   font-size: 13px;
+  display: flex; /* Add display flex */
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  color: #000000;
+  color: #434141;
+  margin-top: 60px
 }
+
 
 a {
   outline: none;
   text-decoration: none;
   box-shadow: none;
-  color: #000000;
+  color: #434141;
 }
 
 a:focus,
@@ -193,7 +198,7 @@ a:hover {
 
 div {
   color: #0047AB;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   font-family: Patrick Hand;
 }
@@ -249,4 +254,39 @@ div {
   position: relative;
   z-index: 1;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+  /* Update styles for mobile screens */
+
+  .container {
+    max-width: 100%; /* Adjust the container width to fit the screen */
+  }
+
+  .rose-buttons {
+    max-width: 100%; /* Adjust the max-width for smaller screens */
+    flex-wrap: wrap; /* Allow buttons to wrap onto the next line */
+    justify-content: center; /* Center-align buttons */
+    margin-left: auto; /* Add auto margin to center horizontally */
+    margin-right: auto;
+  }
+
+  .rose-buttons button {
+    width: calc(45% - 10px); 
+    margin-bottom: 8px; 
+  }
+
+  .rose-message button {
+    max-width: 100%; /* Adjust the max-width for smaller screens */
+  }
+
+  .btn {
+    font-size: 18px; /* Decrease font size for smaller screens */
+    width: 100%; /* Adjust button width to fit the container */
+  }
+
+  a {
+    color: #000000; 
+    text-decoration: none;
+  }
 }
