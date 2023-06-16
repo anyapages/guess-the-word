@@ -1,6 +1,6 @@
 # Guess the Word Game 🌹
 
-The Guess the Word is a simple word guessing game where players try to guess the names of different flower types. The game features a paper and writing-style interface with a visual representation of a rose flower that changes as the game progresses.
+The Guess the Word is a word guessing game where players try to guess the names of different flower types. The game features a paper and writing-style interface with a visual representation of a rose flower that changes as the game progresses.
 
 ## Game Rules
 
@@ -16,6 +16,10 @@ The Guess the Word is a simple word guessing game where players try to guess the
 - React: A JavaScript library for building user interfaces.
 - CSS: Styling the game interface.
 - Images: Utilised for the visual representation of the rose flower.
+
+## Live Demo
+
+Try the live demo of the Guss the Word game: [Demo](http://anyaparanya.com/guess-the-word)
 
 ## Installation
 
