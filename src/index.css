@@ -68,16 +68,6 @@
   transform: translateY(2px); /* Add a slight downward movement when button is pressed */
 }
 
-@media screen and (max-width: 480px) {
-  .rose-buttons {
-    max-width: 300px; /* Adjust the max-width for smaller screens */
-  }
-
-  .rose-buttons button {
-    width: calc(25% - 10px); /* Adjust the width to fit more buttons in a row */
-  }
-}
-
 .rose-message {
   font-size: 16px;
   font-weight: bold;
@@ -102,6 +92,12 @@
   align-items: center;
   text-decoration: none;
 }
+
+.rose-buttons:focus,
+  .rose-buttons:hover {
+    outline: none;
+    box-shadow: none;;
+  }
 
 h1 {
   text-transform: uppercase;
@@ -142,7 +138,7 @@ h2 {
   margin: 0 auto;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  overflow: hidden; /* Add overflow hidden */
+  
 }
 
 .btn:focus,
@@ -164,6 +160,7 @@ body {
   align-items: center;
   min-height: 100vh;
   overflow: hidden;
+  justify-content: flex-start;
 }
 
 footer {
@@ -174,14 +171,13 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  font-size: 13px;
+  font-size: 14px;
   display: flex; /* Add display flex */
   justify-content: center;
   align-items: center;
   color: #434141;
   margin-top: 60px
 }
-
 
 a {
   outline: none;
@@ -260,7 +256,6 @@ div {
 
 @media only screen and (max-width: 480px) {
   /* Update styles for mobile screens */
-
   .container {
     max-width: 100%; /* Adjust the container width to fit the screen */
   }
@@ -280,13 +275,20 @@ div {
     text-decoration: none;
   }
 
+  .rose-buttons:focus,
+  .rose-buttons:hover {
+    outline: none;
+    box-shadow: none;;
+  }
+
   .rose-message button {
-    max-width: 100%; /* Adjust the max-width for smaller screens */
+    max-width: 80%; /* Adjust the max-width for smaller screens */
+    font-size: 14px; 
   }
 
   .btn {
-    font-size: 16px; /* Decrease font size for smaller screens */
-    width: 100%; /* Adjust button width to fit the container */
+    font-size: 14px; 
+    width: 100%; 
   }
 
   a {

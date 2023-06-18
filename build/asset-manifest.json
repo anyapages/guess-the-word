@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/guess-the-word/static/css/main.10bc7614.css",
+    "main.css": "/guess-the-word/static/css/main.a701c3e7.css",
     "main.js": "/guess-the-word/static/js/main.741c3cfc.js",
     "static/media/paper.jpg": "/guess-the-word/static/media/paper.742719cb407073065f02.jpg",
     "static/media/rose0.png": "/guess-the-word/static/media/rose0.0618872b2268146b6d11.png",
@@ -10,11 +10,11 @@
     "static/media/rose4.png": "/guess-the-word/static/media/rose4.bd1dc434b44a1601d8cc.png",
     "static/media/rose5.png": "/guess-the-word/static/media/rose5.7eeab84388d2e080bca4.png",
     "index.html": "/guess-the-word/index.html",
-    "main.10bc7614.css.map": "/guess-the-word/static/css/main.10bc7614.css.map",
+    "main.a701c3e7.css.map": "/guess-the-word/static/css/main.a701c3e7.css.map",
     "main.741c3cfc.js.map": "/guess-the-word/static/js/main.741c3cfc.js.map"
   },
   "entrypoints": [
-    "static/css/main.10bc7614.css",
+    "static/css/main.a701c3e7.css",
     "static/js/main.741c3cfc.js"
   ]
 }
