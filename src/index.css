@@ -3,6 +3,11 @@
   src: url('//fonts.googleapis.com/css?family=Patrick+Hand') format('truetype');
 }
 
+button {
+  color: #000000; 
+  text-decoration: none;
+}
+
 .rose-container {
   text-align: center;
   margin-top: 2px;
@@ -300,6 +305,11 @@ div {
   }
 
   a {
+    color: #000000; 
+    text-decoration: none;
+  }
+
+  button {
     color: #000000; 
     text-decoration: none;
   }
