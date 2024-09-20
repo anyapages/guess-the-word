@@ -19,7 +19,7 @@ The Guess the Word is a word guessing game where players try to guess the names 
 
 ## Live Demo
 
-Try the live demo of the Guss the Word game: [Demo](http://anyaparanya.com/guess-the-word)
+Try the live demo of the Guss the Word game: [Demo](http://anya.works/guess-the-word)
 
 ## Installation
 
