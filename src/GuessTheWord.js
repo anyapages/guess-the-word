@@ -149,8 +149,8 @@ const Rose = () => {
         <footer>
           <p>
             &copy; {new Date().getFullYear()}{' '}
-            <a href="https://anyaparanya.com" className="link-grey">
-              anyaParanya
+            <a href="https://anya.works" className="link-grey">
+              Anya
             </a>
           </p>
         </footer>
